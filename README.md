@@ -3,8 +3,24 @@
 
 Self-contained, pretty and versatile `.tmux.conf` configuration file.
 
-![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
+Main Features: 
 
+1. Remap prefix to Control + a: The prefix key in tmux is like the command key. By default, it is set to C-b (Control + b), but your configuration changes it to C-a (Control + a), which is more convenient for many users.
+
+2. Force a reload of the config file: The key binding r is set to reload the tmux configuration file. This is useful when you make changes to your tmux.conf and want to see their effect immediately without having to kill and restart your sessions.
+
+3. Quick pane cycling: The key binding ^A (Control + Shift + a) is set to cycle through panes in the current window.
+
+4. Setting the default terminal to "screen-256color": This ensures that programs running in tmux can make full use of the terminal's capabilities, including color support.
+
+5. Setting up the status bar: The following lines set up the look of the status bar (background color, foreground color, update interval, etc.) and what it displays (session name on the left, current date on the right).
+
+6. Highlighting the active window: The current window (i.e., the one you're focused on) will have its status highlighted in red.
+
+7. Setting window notifications: These settings make tmux visually notify you when something happens in a window other than the current one (for example, when you receive a new message in a chat program running in another window).
+
+![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
+ 
 Installation
 ------------
 
